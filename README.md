@@ -2,15 +2,36 @@
 
 A modern AI application framework built with FastAPI, optimized for Apple Silicon (M2 Mac).
 
+## 📱 NEW: iPhone App Available!
+
+**Want to test the iPhone app?** 👉 **[See COMPLETE-SETUP-GUIDE.md](COMPLETE-SETUP-GUIDE.md)**
+
+This guide includes:
+- ✅ Complete setup from git clone to iPhone app
+- ✅ Two app options: React Native (fast) or Native Swift (best performance)
+- ✅ Step-by-step with screenshots and troubleshooting
+- ✅ Test on simulator or real iPhone in 10-15 minutes
+
+---
+
 ## ✨ Features
 
-- 🚀 FastAPI-based REST API
-- 🤖 AI/ML integration ready (OpenAI, LangChain, etc.)
+### Backend (Python/FastAPI)
+- 🚀 FastAPI-based REST API with auto-generated docs
+- 🤖 AI/ML integration ready (OpenAI, LangChain, ChromaDB)
 - 🐳 Docker support for easy deployment
 - 🔥 Optimized for M2 Mac with ARM64 support
 - 📊 Built-in API documentation (Swagger/OpenAPI)
 - 🧪 Testing framework included
 - 🔧 Easy configuration with environment variables
+
+### Mobile Apps
+- 📱 **React Native App** - Cross-platform (iOS + Android)
+- 🍎 **Native Swift App** - Maximum performance on iOS
+- 💬 Chat interface with AI
+- 🔍 Text analysis and sentiment detection
+- ✅ Health monitoring
+- 🎨 Beautiful native UI design
 
 ## 📋 Prerequisites (M2 Mac)
 
