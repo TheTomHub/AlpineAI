@@ -1,0 +1,23 @@
+version: '3.8'
+
+services:
+  alpine-api:
+    build: .
+    container_name: alpine-ai
+    ports:
+      - "8000:8000"
+    environment:
+      - API_HOST=0.0.0.0
+      - API_PORT=8000
+      - API_ENV=development
+      - LOG_LEVEL=INFO
+      - DEBUG=true
+    volumes:
+      - ./alpine:/app/alpine
+      - ./data:/app/data
+      - ./.env:/app/.env
+    restart: unless-stopped
+    platform: linux/arm64  # Optimized for M2 Mac
+
+volumes:
+  alpine-data:
